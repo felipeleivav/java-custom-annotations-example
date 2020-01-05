@@ -5,9 +5,9 @@ This project implements a simple java socket server that you can connect through
     telnet localhost 1111
     nc localhost 1111
 
-It also illustrates a how to implement a custom annotation by creating a "Message Filter".
+Main purpose is to illustrate how to implement a custom annotation by creating a "Message Filter".
 
-This message filter makes annotated be executed when a certain message arrives.
+This message filter makes annotated methods to be executed when a certain message arrives.
 
 If I have this method:
 
